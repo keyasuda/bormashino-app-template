@@ -12,6 +12,6 @@
     "deploy:prod": "(cd dist && vercel --prod)"
   },
   "dependencies": {
-    "bormashino": "^0.1.2"
+    "bormashino": "^0.1.3"
   }
 }
