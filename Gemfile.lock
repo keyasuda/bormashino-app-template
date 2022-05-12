@@ -17,7 +17,7 @@ GEM
       minitest (>= 5.1)
       tzinfo (~> 2.0)
     ast (2.4.2)
-    bormashino (0.1.4)
+    bormashino (0.1.5)
       json_pure (~> 2.6, >= 2.6.1)
       ruby2_keywords (= 0.0.4)
       sinatra (~> 2.2)
@@ -129,7 +129,7 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  bormashino (~> 0.1.3)
+  bormashino (~> 0.1.5)
   fablicop
   guard
   guard-rake!
