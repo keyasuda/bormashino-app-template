@@ -1,9 +1,9 @@
 # frozen_string_literal: true
 
-# 開発環境用gem
+# gems for dev
 source 'https://rubygems.org'
 
-gem 'bormashino', '~> 0.1.6'
+gem 'bormashino', '~> 0.1.7'
 gem 'fablicop', require: false
 gem 'guard'
 gem 'guard-rake', git: 'https://github.com/rubyist/guard-rake.git', ref: '3138496c512753bcbc83d13af08b7b5ad0538ee7'
