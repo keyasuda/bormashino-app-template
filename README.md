@@ -32,5 +32,7 @@ App codes are basically in `src/`.
 
 ## Deployment
 
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fkeyasuda%2Fbormashino-app-template)
+
 "Vercel for GitHub" works on this project.
 See https://vercel.com/docs/concepts/git/vercel-for-github
