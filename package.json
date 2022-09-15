@@ -7,9 +7,7 @@
   "source": "js/index.html",
   "scripts": {
     "dev": "parcel --dist-dir tmp/",
-    "build": "bundle exec rake && cp tmp/ruby.*.wasm dist/ && parcel build --no-scope-hoist",
-    "deploy": "(cd dist && vercel)",
-    "deploy:prod": "(cd dist && vercel --prod)"
+    "build": "bundle exec rake && cp tmp/ruby.*.wasm dist/ && parcel build --no-scope-hoist"
   },
   "dependencies": {
     "bormashino": "^0.1.7"
