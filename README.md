@@ -12,14 +12,13 @@ You need:
 
 - rbenv + ruby-build
 - npm
-- Vercel CLI (optional, when you want to deploy the app into Vercel)
 
 ## Quickstart
 
-in the template dir
+in the cloned dir
 
 ```bash
-rbenv install 3.2.0-preview1
+cat .ruby-version | rbenv install -
 gem install foreman
 bundle install
 bundle exec rake bormashino:download
@@ -30,3 +29,8 @@ npm install
 
 You can see the app at http://localhost:5000/.
 App codes are basically in `src/`.
+
+## Deployment
+
+"Vercel for GitHub" works on this project.
+See https://vercel.com/docs/concepts/git/vercel-for-github
