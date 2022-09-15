@@ -7,7 +7,7 @@
   "source": "js/index.html",
   "scripts": {
     "dev": "parcel --dist-dir tmp/",
-    "build": "bundle exec rake && cp tmp/ruby.*.wasm dist/ && parcel build --no-scope-hoist"
+    "build": "bundle exec rake && mkdir -p dist && cp tmp/ruby.*.wasm dist/ && parcel build --no-scope-hoist"
   },
   "dependencies": {
     "bormashino": "^0.1.7"
