@@ -1,0 +1,6 @@
+{
+  "buildCommand": "bin/vercel-git",
+  "outputDirectory": "dist",
+  "installCommand": "yum install -y gcc openssl-devel readline-devel zlib-devel make tar libyaml-devel xz curl",
+  "rewrites": [{ "source": "/(.*)", "destination": "/" }]
+}
