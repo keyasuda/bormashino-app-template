@@ -17,9 +17,6 @@ curl -L https://github.com/keyasuda/bormashino-vercel-for-git-prebuilt-ruby/rele
 # required ruby install
 rbenv rehash
 cat .ruby-version | rbenv install -
-rbenv versions
-which ruby
-ruby --version
 
 # project build
 npm i
