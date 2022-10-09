@@ -10,6 +10,6 @@
     "build": "bundle exec rake && mkdir -p dist && cp tmp/ruby.*.wasm dist/ && parcel build --no-scope-hoist"
   },
   "dependencies": {
-    "bormashino": "^0.1.7"
+    "bormashino": "^0.1.8"
   }
 }
