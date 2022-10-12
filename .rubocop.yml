@@ -1,12 +1,12 @@
 inherit_gem:
   fablicop:
-    - "config/.base_rubocop.yml"
+    - 'config/.base_rubocop.yml'
 
 AllCops:
   Exclude:
-    - "src/bundle/**/*"
-    - "node_modules/**/*"
-    - "head-wasm32-unknown-wasi-full-js/**/*"
+    - 'src/bundle/**/*'
+    - 'node_modules/**/*'
+    - 'rubies/**/*'
 
 RSpec/InstanceVariable:
   Enabled: false
@@ -39,4 +39,16 @@ Lint/EmptyClass:
   Enabled: false
 
 Rails/RakeEnvironment:
+  Enabled: false
+
+Rails/TimeZone:
+  Enabled: false
+
+Rails/Pluck:
+  Enabled: false
+
+Style/PercentLiteralDelimiters:
+  Enabled: false
+
+Rails/NegateInclude:
   Enabled: false

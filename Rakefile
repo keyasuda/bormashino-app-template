@@ -3,8 +3,4 @@
 load 'bormashino/tasks/bormashino.rake'
 
 desc 'build ruby.wasm with packed app'
-task :default do
-  Rake::Task['bormashino:pack'].invoke('')
-  Rake::Task['bormashino:delete_wasms'].invoke(TMP)
-  Rake::Task['bormashino:digest'].invoke(TMP)
-end
+task default: 'bormashino:pack'
