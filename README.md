@@ -21,7 +21,6 @@ in the cloned dir
 cat .ruby-version | rbenv install -
 gem install foreman
 bundle install
-bundle exec rake bormashino:download
 (cd src && bundle install)
 npm install
 ./bin/dev
