@@ -21,6 +21,5 @@ cat .ruby-version | rbenv install -
 # project build
 npm i
 bundle
-bundle exec rake bormashino:download
 (cd src && bundle)
 npm run build

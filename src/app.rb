@@ -1,5 +1,6 @@
 require 'sinatra/base'
 
+# the main class of app
 class App < Sinatra::Base
   set :protection, false
 
