@@ -1,23 +1,23 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    bormashino (0.1.10)
+    bormashino (0.1.11)
       json_pure (~> 2.6, >= 2.6.1)
       os (~> 1.1, >= 1.1.4)
       ruby2_keywords (= 0.0.4)
       sinatra (~> 2.2)
-    json_pure (2.6.2)
+    json_pure (2.6.3)
     mustermann (2.0.2)
       ruby2_keywords (~> 0.0.1)
     os (1.1.4)
     rack (2.2.4)
-    rack-protection (2.2.2)
+    rack-protection (2.2.3)
       rack
     ruby2_keywords (0.0.4)
-    sinatra (2.2.2)
+    sinatra (2.2.3)
       mustermann (~> 2.0)
       rack (~> 2.2)
-      rack-protection (= 2.2.2)
+      rack-protection (= 2.2.3)
       tilt (~> 2.0)
     tilt (2.0.11)
 
