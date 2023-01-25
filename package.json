@@ -10,6 +10,6 @@
     "build": "bundle exec rake && parcel build --no-scope-hoist"
   },
   "dependencies": {
-    "bormashino": "^0.1.9"
+    "bormashino": "^0.1.14"
   }
 }
