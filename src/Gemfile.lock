@@ -1,7 +1,7 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    bormashino (0.1.12)
+    bormashino (0.1.15)
       json_pure (~> 2.6, >= 2.6.1)
       os (~> 1.1, >= 1.1.4)
       ruby2_keywords (= 0.0.4)
@@ -10,7 +10,7 @@ GEM
     mustermann (2.0.2)
       ruby2_keywords (~> 0.0.1)
     os (1.1.4)
-    rack (2.2.5)
+    rack (2.2.6.2)
     rack-protection (2.2.4)
       rack
     ruby2_keywords (0.0.4)
@@ -19,16 +19,16 @@ GEM
       rack (~> 2.2)
       rack-protection (= 2.2.4)
       tilt (~> 2.0)
-    tilt (2.0.11)
+    tilt (2.1.0)
 
 PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
-  bormashino (~> 0.1.9)
+  bormashino (~> 0.1.12)
   json_pure (~> 2.6, >= 2.6.1)
   ruby2_keywords (= 0.0.4)
   sinatra
 
 BUNDLED WITH
-   2.4.0.dev
+   2.4.6
