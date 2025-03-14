@@ -11,9 +11,6 @@ source ~/.bash_profile
 mkdir -p "$(rbenv root)"/plugins
 git clone https://github.com/rbenv/ruby-build.git "$(rbenv root)"/plugins/ruby-build
 
-# restore prebuilt versions
-curl -L https://github.com/keyasuda/bormashino-vercel-for-git-prebuilt-ruby/releases/download/latest/versions.tar.xz | xz -d | tar xf - -C /
-
 # required ruby install
 rbenv rehash
 cat .ruby-version | rbenv install -
